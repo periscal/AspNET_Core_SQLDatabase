@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Grafo";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>En proceso de creación de la vista Grafo.</p>
+<svg width="100" heght="100">
+    <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="yellow"></circle>
+</svg>
+
+<div id="grafo" width="1200" heigh="800"></div>
+
+@section scripts{
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script type="text/javascript" src="~/js/grafo.js"></script>
+}

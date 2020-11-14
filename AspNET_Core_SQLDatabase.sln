@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNET_Core_SQLDatabase", "AspNET_Core_SQLDatabase.csproj", "{C4221BBE-7BD6-4F6F-B63F-FCB60000D7D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentacion", "Documentacion", "{81E10090-41D4-49B2-9BA3-9A1625523AB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagramas", "Diagramas", "{DF816740-406C-4C6C-8FF7-D2B1E29FBE4A}"
+	ProjectSection(SolutionItems) = preProject
+		UML.plantuml = UML.plantuml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4221BBE-7BD6-4F6F-B63F-FCB60000D7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4221BBE-7BD6-4F6F-B63F-FCB60000D7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4221BBE-7BD6-4F6F-B63F-FCB60000D7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4221BBE-7BD6-4F6F-B63F-FCB60000D7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF816740-406C-4C6C-8FF7-D2B1E29FBE4A} = {81E10090-41D4-49B2-9BA3-9A1625523AB5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34A5189F-FC6B-4F02-87FF-6C0AA4DEF1F5}
+	EndGlobalSection
+EndGlobal
